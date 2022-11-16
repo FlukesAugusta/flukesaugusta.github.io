@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Flukes</title>
+    <link rel="icon" type="image/x-icon" href="static/bigblue.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--CSS-->
+    <link href="static/template.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--JS-->
+    <script src="static/template.js"></script>
+
+</head>
+
+<body>
+    <img src="static/bg.png" id="bg">
+    <div id="app">
+        <img src="static/bluewhale.png" class="logo">
+
+
+
+
+        <div id="top">
+            <img src="static/blueflukes.png" style="max-width: 50vmin;">
+            <h2>Augusta WA</h2>
+            <!-- <h1 style="background-color: rgb(30, 65, 102); padding: 1.2%;">FLUKES</h1> -->
+            <p>Susan and her staff at Flukes invite you to pop in and spend some time to enjoy <br>our displays where we have been focusing on presenting a local shopping theme hand crafted in the community. <br> A day out in Augusta can be lots fun with
+                a growing selection main street arts, craft, collectables, gift and café's. </p>
+        </div>
+        <div id="main">
+            <ul id="navList">
+                <li class="nav noselect">Artisan Art Crafts &amp; Sculptures</li>
+                <li class="nav noselect">Local Produce + Flowers</li>
+                <li class="nav noselect">Clothing/Jewellery/Giftware</li>
+            </ul>
+            <div class="sections">
+                <div class="descriptions">
+                    <p>At Flukes you will find a display of creatively hand crafted unique pieces by local artisans and friends of Flukes.
+                        <br>The use of repurpose, upcycle, metal, wood, and mix mediums are used to create interesting pieces.
+                    </p>
+                    <img class="artisanSlides" src="static/products/chain_turtle.jpg">
+                    <img class="artisanSlides" src="static/products/cog_box.jpg">
+                    <img class="artisanSlides" src="static/products/bird.jpg">
+                    <div style="display: flex; flex-direction: row;">
+                        <button class="w3-button navbutt-left" onclick="plusDivs(-1, document.getElementsByClassName('artisanSlides'))">&#10094;</button>
+                        <button class="w3-button navbutt-right" onclick="plusDivs(+1, document.getElementsByClassName('artisanSlides'))">&#10095;</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sections">
+                <div class="descriptions">
+                    <p>Specialty treats produce by small southwest and Australian producers. Our ranges include handmade chocolates, locally grown olives, olive oil, Jams, chutneys, dukkha, kristini, crackers, roasted coffee, teas, dried abalone flakes-
+                        salt, and many more. Perfect accomplishment for that special occasion or gift.</p>
+                    <img class="foodSlides" src="static/products/desk_lights.jpg">
+                    <img class="foodSlides" src="static/products/honey.jpg">
+                    <img class="foodSlides" src="static/products/abalone.jpg">
+                    <div style="display: flex; flex-direction: row;">
+                        <button class="w3-button navbutt-left" onclick="plusDivs(-1, document.getElementsByClassName('foodSlides'))">&#10094;</button>
+                        <button class="w3-button navbutt-right" onclick="plusDivs(+1, document.getElementsByClassName('foodSlides'))">&#10095;</button>
+                    </div>
+                    <p>We also supply beautiful fresh seasonal flowers and died posies, organically farmed. Augusta protea - Deepdene Flower Farm Pretty mixed flower posies presented cottage style in recycled jars, a nice personal touch.</p>
+
+                </div>
+
+            </div>
+
+            <div class="sections" style="display: none;">
+                <div class="descriptions">
+                    <p>Flukes has an eclectic array of unique and affordable giftware and collectables. Selecting a gift is not always easy, at Fluke's the staff are happy to lend a hand to find that special gift.</p>
+                    <p>A small selection of seasonal new and recycled clothing, including hats scarves and gloves.</p>
+                    <img class="giftSlides" src="static/products/elves.jpg">
+                    <img class="giftSlides" src="static/products/ducks.jpg">
+                    <img class="giftSlides" src="static/products/mosaic_whale.jpg">
+                    <img class="giftSlides" src="static/products/clothes.jpg">
+                    <div style="display: flex; flex-direction: row;">
+                        <button class="w3-button navbutt-left" onclick="plusDivs(-1, document.getElementsByClassName('giftSlides'))">&#10094;</button>
+                        <button class="w3-button navbutt-right" onclick="plusDivs(+1, document.getElementsByClassName('giftSlides'))">&#10095;</button>
+                    </div>
+                    <p>On display a selection of hand crafted, new and recycled local jewelry, trinkets and miniature sculptural pieces.</p>
+                </div>
+
+            </div>
+        </div>
+        <div id="bottom"></div>
+
+
+
+        <div class="footer">
+            <p>Flukes Augusta WA <br>
+                <a href="https://www.google.com/search?q=91+blackwood+avenue+augusta&oq=91+blackwood+avenue+augusta&aqs=chrome..69i57.6021j0j1&sourceid=chrome&ie=UTF-8#">91
+                    Blackwood Avenue</a>
+                <br> Ph. 0439885398
+            </p>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Summer</th>
+                    <th>Winter</th>
+                </tr>
+                <tr>
+                    <td>Mon</td>
+                    <td>10.30-3:30pm</td>
+                    <td>10.30-3:30pm</td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td>10-4:30pm</td>
+                    <td>10-4pm</td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td>10-4:30pm</td>
+                    <td>10-4pm</td>
+                </tr>
+                <tr>
+                    <td>Thur</td>
+                    <td>10-4:30pm</td>
+                    <td>10-4pm</td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td>10-4:30pm</td>
+                    <td>10-4pm</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>10-3pm</td>
+                    <td>10-2pm</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>Closed</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+body {
+    color: white;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+#bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 210vh;
+}
+
+#app {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+    width: 100%;
+    align-items: stretch;
+    text-align: center;
+    font-size: 2.25vh;
+    font-family: ADAMCG;
+    padding: 5%;
+}
+
+#app div {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    background-color: rgba(211, 211, 211, 0.3);
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+    font-size: larger;
+    border: 2px solid aqua;
+}
+
+.nav:hover {
+    background-color: rgb(18, 221, 248);
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.giftSlides,
+.foodSlides,
+.artisanSlides {
+    display: flex;
+    max-width: 80vmin;
+    max-height: 60vh;
+}
+
+.footer {
+    align-self: flex-start;
+    left: 0;
+    bottom: 0vh;
+    position: relative;
+    color: white;
+    font-size: 2vh;
+}
+
+.logo {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    left: 1%;
+    top: 1.5%;
+}
+
+@font-face {
+    font-family: ADAMCG;
+    src: url("static/ADAM.CG PRO.otf") format("opentype");
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.sections {
+    display: flex;
+}
+
+.descriptions {
+    text-align: center;
+    max-width: 80vmin;
+}
+
+.navbutt-left {}
+
+.navbutt-right {}
