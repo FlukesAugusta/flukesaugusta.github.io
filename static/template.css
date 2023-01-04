@@ -21,6 +21,9 @@ body {
         height: 250%;
     }
 }
+@media only screen and (orientation: landscape) {
+    height: 250vw
+}
 
 #app {
     position: absolute;
