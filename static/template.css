@@ -18,11 +18,11 @@ body {
 
 @media only screen and (min-width: 800px) {
     #bg {
-        height: 310%;
+        height: 330%;
     }
 }
 @media only screen and (orientation: landscape) {
-    height: 500vw;
+    height: 400%;
 }
 
 #app {
