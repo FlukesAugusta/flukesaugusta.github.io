@@ -16,9 +16,14 @@ body {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) and (max-width: 999px) {
     #bg {
-        height: 320%;
+        height: 3300%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #bg {
+        height: 250%;
     }
 }
 @media only screen and (orientation: landscape) {
